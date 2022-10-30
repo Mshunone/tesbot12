@@ -258,73 +258,72 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
    
    const sections = [
    {
-	title: `${htki} ᴍᴀɪɴ ${htka}`,
+	title: `${htki} Dashboard ${htka}`,
 	rows: [
-	    {title: `⚡ ${pmenus} 𝚂𝙿𝙴𝙴𝙳 𝙱𝙾𝚃`, rowId: ".ping", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙺𝚎𝚌𝚎𝚙𝚊𝚝𝚊𝚗 𝚁𝚎𝚜𝚙𝚘𝚗 𝙱𝙾𝚃"},
 	    {title: `⏰ ${pmenus} 𝚁𝚄𝙽𝚃𝙸𝙼𝙴 𝙱𝙾𝚃`, rowId: ".runtime", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝚆𝚊𝚔𝚝𝚞 𝙱𝙾𝚃 𝙱𝚎𝚛𝚓𝚊𝚕𝚊𝚗"}, 
 	    {title: `💌 ${pmenus} 𝙾𝚆𝙽𝙴𝚁 𝙱𝙾𝚃`, rowId: ".creator", description: "𝙼𝚎𝚗𝚊𝚖𝚙𝚒𝚕𝚔𝚊𝚗 𝙸𝚗𝚏𝚘𝚛𝚖𝚊𝚜𝚒 𝚃𝚎𝚗𝚝𝚊𝚗𝚐 𝙾𝚠𝚗𝚎𝚛"},
 	    {title: `📔 ${pmenus} 𝚂𝙲𝚁𝙸𝙿𝚃 𝙱𝙾𝚃`, rowId: ".sc", description: `𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎 ${namebot}`},
 	]
     },{
-	title: `${htki} sᴜᴘᴘᴏʀᴛ ${htka}`,
+	title: `${htki} Suport anj ${htka}`,
 	rows: [
 	    {title: `💹 ${pmenus} 𝙳𝙾𝙽𝙰𝚃𝙴`, rowId: ".donasi", description: '𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙾𝚠𝚗𝚎𝚛 𝙰𝚐𝚊𝚛 𝙻𝚎𝚋𝚒𝚑 𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝'},
 	]
 	},{
-	title: `${htki} ᴍᴇɴᴜ ${htka}`,
+	title: `${htki} Menu ${htka}`,
 	rows: [
-	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
-	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
-	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho (๑˃̵　ᴗ　˂̵)"},
-	{title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
-	{title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
-	{title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
-	{title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Wibu wibu🐦"},
-	{title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, dasar sagnean"},
-	{title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Untuk user premium"},
-	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
-	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
-	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu dari BOT"},
-	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
-	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
-	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
-	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
-	{title: `🛠️ ${pmenus} Tools`, rowId: ".? tools", description: "Mungkin tools ini bisa membantu?"},
-	{title: `ℹ️ ${pmenus} Info`, rowId: ".? info", description: "Info info BOT"},
-	{title: `👩‍💻 ${pmenus} Owner`, rowId: ".? owner", description: "Owner Only!"},
-	{title: `❓ ${pmenus} No Category`, rowId: ".? nocategory", description: "Fitur tanpa kategory!"},
+	    {title: `〚 All Menu 〛`, rowId: ".? all", description: "╰► Semua menu cuy"},
+	    {title: `〚 Rpg 〛`, rowId: ".? rpg", description: "╰► Calon anak petualang nih"},
+	{title: `〚 Exp 〛`, rowId: ".? xp", description: "╰► Kalau dah level 100 dapat Xia"},
+	{title: `〚 Game 〛`, rowId: ".? game", description: "╰► Main Game bareng xia yuk"},
+	{title: `〚 Fun 〛`, rowId: ".? fun", description: "╰► Gabut ya yok xia hibur"},
+	{title: `〚 Kerang 〛`, rowId: ".? kerangajaib", description: "╰► Mau tanya apa banh"},
+	{title: `〚 Quotes 〛`, rowId: ".? quotes", description: "╰► Kata kata nya coy"},
+	{title: `〚 Anime 〛`, rowId: ".? anime", description: "╰► KMU WIBU YA"},
+	{title: `〚 Nsfw 〛`, rowId: ".? nsfw", description: "╰► Najis masi PMO."},
+	{title: `〚 Premium 〛`, rowId: ".? premium", description: "╰► Only users premium"},
+	{title: `〚 Anonymous chat 〛`, rowId: ".? anonymous", description: "╰► Ngomong sama ytta"},
+	{title: `〚 Islamic 〛`, rowId: ".? quran", description: "╰► Tobat coy"},
+	{title: `〚 Internet 〛`, rowId: ".? internet", description: "╰► Pakai dengan bijak ya"},
+	{title: `〚 Downloader 〛`, rowId: ".? downloader", description: "╰► Dowload apaan tu"},
+	{title: `〚 Stikers 〛`, rowId: ".? stiker", description: "╰► Kalau bikin sticker jangan di spam"},
+	{title: `〚 Nulis 〛`, rowId: ".? nulis", description: "╰► Hati-hati ke tawan"},
+	{title: `〚 Audio 〛`, rowId: ".? audio", description: "╰► Audio coy biar ga suntuk"},
+	{title: `〚 Group 〛`, rowId: ".? group", description: "╰► Menu settingan buat group mu"},
+	{title: `〚 Admin 〛`, rowId: ".? admin", description: "╰► Admin Only"},
+	{title: `〚 Database 〛`, rowId: ".? database", description: "╰► Simpen apa gitu di bot"},
+	{title: `〚 Tools 〛`, rowId: ".? tools", description: "╰► Butuh apa aja bot akan bantu"},
+	{title: `️️〚 Info 〛`, rowId: ".? info", description: "╰► Info nya coy"},
+	{title: `〚 Owner 〛`, rowId: ".? owner", description: "╰► Only Developer"},
+	{title: `〚 Maker 〛`, rowId: ".? maker", description: "╰► Bikin logo apa yak"},
+	{title: `〚 Store 〛`, rowId: ".? store", description: "╰► Anak jebeh ya coy"},
+	{title: `〚 Virtex 〛`, rowId: ".? virus", description: "╰► Owner Only"},
 	]
   },
 ]
 
-let tek = `✧────···[ Dashboard ]···────✧
-*${ucapan()} ${conn.getName(m.sender)}*
-╭━━━━━━━━━━━━━━━━┈─✧
-┴
-│⬡ Aktif selama ${mpt}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ Prefix : [ ${_p} ]
-│⬡ *${Object.keys(global.db.data.users).length}* Pengguna
-│⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
-│⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
-┬
-├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪᴍ-ʏᴀɴxɪᴀᴏ
-✧
-┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
-╰━━━━━━━━━━━━━━━━┈─◂`
+let tek = `✧────···[ DASHBOARD ]···────✧
+┌━━━━━━━━━━━━━━━━┈─❐
+│「 𝐇𝐢 𝐔𝐬𝐞𝐫👋 」
+└┬✥ 「 *${ucapan()} ${conn.getName(m.sender)}* 」
+╭┤━━━━━━━━━━━━━━┈─✧
+┴   ☰ INFO BOT ☰
+│📦 Aktif selama ${mpt}
+│📦 Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│📦 Prefix : [ ${_p} ]
+│📦 *${Object.keys(global.db.data.users).length}* Pengguna
+│📦 *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
+│📦 *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
+├━━━━━━━━━━━━━━━┈ ⳹
+┴ ▸ᴀᴜᴛʜᴏʀ : ©SaxiaBotz
+┬ ▸ᴏᴡɴᴇʀ : ®Marxel
+╰━━━━━━━━━━━━━━━┈─◂`
 const listMessage = {
   text: tek,
   footer: wm2,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `Klik Disini ⎙`, 
+  buttonText: `Klik Ini! ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -505,7 +504,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^ω^', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya cuy', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -519,7 +518,7 @@ const listMessage = {
 
     }
 
-    conn.reply(m.chat, '*Tunggu Sebentar Kak. . .*', ftrol) 
+    conn.reply(m.chat, '*Tunggu Sebentar. . .*', ftrol) 
 
     
     //------------------< MENU >----------------
@@ -578,7 +577,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
+                        url: 'https://github.com/SaxiaMD'
                     }
                 },
                 {
@@ -589,19 +588,19 @@ const listMessage = {
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner🎐',
+                        displayText: 'Owner',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed⚡',
+                        displayText: 'Speed',
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi💵',
+                        displayText: 'Donasi',
                         id: '.donasi'
                     }
                 },
