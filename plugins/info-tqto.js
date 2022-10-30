@@ -14,62 +14,30 @@ let handler = async (m) => {
     let user = global.db.data.users[who]
 let tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
 *❉ Adiwajshing:*
-https://github.com/adiwajshing
 *❉ Nurutomo:*
-https://github.com/Nurutomo
-*❉ Istikmal:* 
-https://github.com/BochilGaming
-*❉ Ariffb:*
-https://github.com/Ariffb25
-*❉ Ilman:*
-https://github.com/ilmanhdyt
-*❉ Amirul:*
-https://github.com/amiruldev20
-*❉ Rasel:*
-https://github.com/raselcomel
-*❉ Fatur:*
-https://github.com/Ftwrr
-*❉ Rominaru:*
-https://github.com/Rominaru
-*❉ Kannachann:*
-https://github.com/Kannachann
-*❉ The.sad.boy01:*
-https://github.com/kangsad01
-*❉ Ameliascrf:*
-https://github.com/Ameliascrf
-*❉ Fokus ID:*
-https://github.com/Fokusdotid
-*❉ Johannes:*
-https://github.com/Johannes2803
-*❉ BrunoSobrino:*
-https://github.com/BrunoSobrino
-*❉ Krisna:*
-https://github.com/NevtBotz
-*❉ LitRHap:*
-https://github.com/LitRHap
-*❉ Rlxfly:*
-https://github.com/Rlxfly
 *❉ Aine:*
-https://github.com/Aiinne
 *❉ Papah-Chan:*
-https://github.com/FahriAdison
+*❉ Maxxy-Md:*
+*❉ PenyediaAPI:*
+*❉ Donatur:*
+*❉ All Uaer:*
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
-*❉ ImYanXiao:*
-https://github.com/ImYanXiao
+*❉ SaxiaBotz:*
+https://github.com/Mshunone
 *▸ - - - —「 Thanks For Suhu 」— - - - ◂*
 *❉ Kannachan:*
-*❉ The.sadboy.01:*
+*❉ The.sadboy.01
 *❉ Papah-Chan:*
 *❉ Johannes:*
 *❉ Krisna:*
 *❉ Rlxfly:*
-
+*❉ AnaBoy*
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://i.pinimg.com/originals/e9/d5/46/e9d5466eed88731e3dd4211d2cc89c9b.jpg",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
-    title: 'Elaina-MultiDevice',
+    description: "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz", 
+    title: 'SaxiaBotz-MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
