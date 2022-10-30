@@ -34,7 +34,7 @@ await conn.reply(m.chat, 'Uploading...', m, { contextInfo: {
 })
   let res2 = await fetch(global.API('lol', `/api/nhentaipdf/${args[0]}`, {}, 'apikey'))
   let hakta = await res2.json()
-  await conn.sendFile(m.chat, hakta.result, '[Elaina Bot]' + ' ' + `${args[0]}` + '.pdf', '', m, false, { asDocument: true, thumbnail: thumbnail})
+  await conn.sendFile(m.chat, hakta.result, '[Saxia Bot]' + ' ' + `${args[0]}` + '.pdf', '', m, false, { asDocument: true, thumbnail: thumbnail})
 }
 handler.tags = ['nsfw']
 handler.command = /^(nh|nhentai|doujin)$/i
