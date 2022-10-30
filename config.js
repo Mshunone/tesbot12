@@ -61,6 +61,7 @@ global.psaweria = 'https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz' //Link Sawe
 /*============== NOMOR ==============*/
 global.nomorbot = '6283111136642' //Nomor Bot
 global.nomorown = '6283805685278' //Nomor Owner
+global.nomorown = '6285641114178' //Nomor Owner
 global.namebot = 'SaxiaV1Botz˘汉' //Nama Bot
 global.nameown = '® Ka˘Xel' // Nama Owner
 
@@ -68,6 +69,7 @@ global.nameown = '® Ka˘Xel' // Nama Owner
 /*============== STAFF ==============*/
 global.owner = [
   ['6283805685278', '® Ka˘Xel', true] //Ganti jd nomormu sama Namamu
+  ['6285641114178', '® Ka˘Xell', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
