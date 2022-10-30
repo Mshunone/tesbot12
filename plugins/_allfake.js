@@ -49,10 +49,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Elaina-MultiDevice',
+					description: 'SaxiaV1-MD',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(pic)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: "https://github.com/SaxiaMD",					
 				}
 			}
 		}
@@ -84,10 +84,10 @@ handler.all = async function (m) {
 			}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/Xiao_yan_21",
+            mediaUrl: "https://Instagram.com",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/Xiao_yan_21", 
-            title: 'Elaina-MultiDevice',
+            description: "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz", 
+            title: 'SaxiaV1-MD',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
@@ -95,10 +95,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/zuck",
+            mediaUrl: "https://Facebook.com",
             mediaType: "VIDEO",
-            description: "https://www.Facebook.com/zuck", 
-            title: 'Elaina-MultiDevice',
+            description: "https://chat.whatsapp.com/GeWPLmclHaVHsF0GymCcJz", 
+            title: 'SaxiaV1-MD',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -199,7 +199,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "6285736178354-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Elaina", 
+                   "groupName": "Official Saxia GC", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
